@@ -46,7 +46,7 @@
 							<?php if(is_search()){
 								the_excerpt();
 							}else{
-							 the_content(__('Continue Reading', 'site5framework')); 
+							 the_excerpt(); 
 							}?>
 						</div>
 						<?php if(has_tag()){?>
